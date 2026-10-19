@@ -1,0 +1,26 @@
+# API
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+
+# Database (PyMongo's native async client - replaces motor)
+pymongo
+
+# Document parsing
+pymupdf
+python-docx
+pypdf
+
+# Chunking
+langchain-text-splitters
+langchain
+langchain_community
+langchain_openai
+
+# Embeddings (local, runs on CPU; pulls in torch)
+sentence-transformers>=3.0
+
+# LLM
+anthropic
+openai
